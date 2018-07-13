@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.verde{
+    height: 1vh;
+    width: 100vw;
+    background-color: lightgreen;
+}
+
+.text{
+    flex-direction: column;
+    margin: 5vw;
+    color: white;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 50pt;
+    font-family: 'Pacifico',cursive;
+}
+
+.paragrafo{
+    margin: 5vh 0 ;
+    font-size: 15pt;
+    height: auto;
+    width: 25vw;
+    display: flex;
+}
+
+.mao{
+    margin-top: 10vh;
+}
+
+.os{
+    border-radius: 100%;
+    padding: 3%;
+    border: 2px;
+    background-color: rgb(126, 126, 126);
+}
+
+section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.second{
+    margin: 1vh 0 ;
+    font-size: 17pt;
+    height: auto;
+    width: 25vw;
+    display: flex;
+    color: rgb(156, 156, 156);
+}
+
+h2{
+    font-size: 20pt;
+    color: black;
+    margin-top: 0%;
+}
+
+.icone{
+    padding: 5%;
+    background-color: lightgreen;
+    border-radius: 100%;
+}
+
+.segunda{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    padding: 3vw;
+}
+
+aside{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: lightgray;
+}
+
+.vidro{
+    height: 35vh;
+    width: 35vw;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10% 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#vidro{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.info{
+    flex-direction: column;
+    display: flex;
+    padding: 3% 5% 5% 2%;
+    width: 30vw;
+}
+
+.Email{
+    box-sizing: border-box;
+    width: 70%;
+    height: 5vh;
+    padding: 5px;
+    border-radius: 15px 0 0 15px;
+}
+
+.notify{
+    background-color: lightgreen;
+    width: 30%;
+    height: 5vh;
+    border-radius: 0 15px 15px 0;
+}
+
+.butest{
+    margin: 0;
+    color: white;
+    font-size: 20pt;
+}
+
+.oia{
+    margin-top: 5%;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    width: 80%;
+}
+
+.secondd{
+    margin: 1vh 0 ;
+    font-size: 17pt;
+    height: auto;
+    width: 100%;
+    display: flex;
+    color: rgb(156, 156, 156);
+}

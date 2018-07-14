@@ -18,6 +18,10 @@ header{
     background-color: #2ccb6f;
 }
 
+b{
+    color: #2ccb6f;
+}
+
 .text{
     flex-direction: column;
     margin: 5vw;
@@ -241,4 +245,14 @@ h4{
     width: 50vw;
     flex-direction: row;
     justify-content: space-between;
+}
+
+h6{
+    padding: 1%;
+    border-radius: 5px;
+}
+
+h6:hover{
+    color: white;
+    background-color:gray;
 }
